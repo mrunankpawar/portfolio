@@ -1,14 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
-    --color-body: #b6cbce;
+    /* --color-body: #b6cbce;
     --color-heading: #eef3db;
     --color-base: #033f47;
     --color-base2: #022a30;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
     --sidbar-width: 240px;
-    --font-base: "Bai Jamjuree";
+    --font-base: "Poppins"; */
+    --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #5757cd;
+    --color-base2: #272770;
+    --color-brand: #e0f780;
+    --color-brand2: #deff58;
+    --sidbar-width: 240px;
+    --font-base: "Poppins";
 }
 
 body {
@@ -97,7 +107,8 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../images/sidebar-img.jpg);
+        /* background: linear-gradient(rgba(87, 87, 205, 0.8), rgba(39, 39, 112, 0.8)), url(../images/sidebar-img.jpg); */
+        background: linear-gradient(rgba(87, 87, 205, 0.8), rgba(68, 68, 150, 0.8)), url(../images/sidebar-img.jpg);
         background-size: cover;
         background-position: center;
     }
